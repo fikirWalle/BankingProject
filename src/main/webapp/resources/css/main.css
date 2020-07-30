@@ -1,0 +1,67 @@
+#global {
+    text-align: left;
+    border: 1px solid #dedede;
+    background: khaki;
+    width: 560px;
+    padding: 20px;
+    margin: 100px auto;
+}
+
+form {
+  font:100% verdana;
+  min-width: 500px;
+  max-width: 600px;
+  width: 560px;
+}
+
+form fieldset {
+  border-color: slategrey;
+  border-width: 3px;
+  margin: 0;
+}
+
+legend {
+ 	color: khaki;
+    background:lightslategrey;
+ 	font-size: 1.3em;
+}
+
+form label { 
+    width: 250px;
+    display: block;
+    float: left;
+    text-align: right;
+    padding: 2px;
+}
+
+#buttons {
+    text-align: right;
+}
+#errors, li {
+	color: red;
+}
+
+#display {
+       position:fixed;
+       top: 50%;
+       left: 50%;
+       width:30em;
+       height:18em;
+       margin-top: -9em; /*set to a negative number 1/2 of your height*/
+       margin-left: -15em; /*set to a negative number 1/2 of your width*/
+       border: 1px solid #ccc;
+       background-color: #f3f3f3;
+
+   }
+#display1 {
+    position:fixed;
+    top: 5%;
+    left: 50%;
+    width:50em;
+    height:80em;
+    margin-top: 1em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+
+}
